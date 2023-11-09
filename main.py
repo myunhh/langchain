@@ -14,7 +14,7 @@ st.title("제주 방언 해석기")
 st.write("made by.myunhh")
 st.write("---")
 
-openai_key = st.text_input('Input OpenAI Keys', type="password")
+openai_key = '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'
 
 uploaded_file = st.file_uploader("PDF 파일을 올려주세요!",type=['pdf'])
 st.write("---")
